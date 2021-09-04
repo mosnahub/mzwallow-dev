@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "frontend"
+    },
+    {
+      "path": "backend/user-serivce"
+    },
+    {
+      "path": "backend/todo-service"
+    }
+  ],
+  "remoteAuthority": "wsl+Ubuntu-20.04",
+  "settings": {}
+}
