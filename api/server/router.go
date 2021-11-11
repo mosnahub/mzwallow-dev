@@ -17,5 +17,11 @@ func NewRouter() *gin.Engine {
 		})
 	})
 
+	router.POST("/test", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{
+			"message": "test",
+		})
+	})
+
 	return router
 }
